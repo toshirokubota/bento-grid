@@ -21,16 +21,14 @@
     padding: 0;
 }
 
-body {
-    position: static;
+.box {
+    position: absolute;
     width: 100%;
     padding: 1em;
-    background-color: #F6F5F6;
+    background-color: #F0F0F0;
     @media only screen and (min-width: 1024px) {
-        position:absolute;
         width: calc(1024px + 5em);
         left: 50%;
-        border: solid 2px black;
         transform: translate(-50%,0);
     }
 }
