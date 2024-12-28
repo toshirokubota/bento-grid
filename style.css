@@ -30,6 +30,7 @@
         width: calc(1024px + 5em);
         left: 50%;
         transform: translate(-50%,0);
+        /* font-size: calc(fw100 / 1024 * 16px); */
     }
 }
 
@@ -255,7 +256,8 @@ main {
 }
 
 .grow-followers>img {
-    width: 80%;
+    display: block;
+    width: 50%;
 }
 
 .grow-followers>p {
